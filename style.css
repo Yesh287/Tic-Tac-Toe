@@ -40,11 +40,23 @@ h3{
     font-size: 100px;
     color: rgb(73, 140, 138);
 }
-#reset{
-    padding: 1rem 2rem;
+button{
+    padding: 1.5rem 2rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     border: none;
-    background-color: rgb(73, 140, 138);
+    background-color: black;
+    color: white;
     font-weight: bold;
+}
+.result{
+    display: flex;
+    height: 100vmin;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.hide{
+    display: none;
 }
