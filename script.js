@@ -47,6 +47,7 @@ const declareWinner = (winner) => {
     for(let box of boxes){
         box.disabled = true;
     }
+    window.scrollTo({top:0,behavior:"instant"});
 }
 const resetGame = () =>{
     turn = true;
