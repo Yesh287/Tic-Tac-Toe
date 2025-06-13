@@ -19,10 +19,12 @@ let count = 0;
 boxes.forEach((box) => {
     box.addEventListener("click",()=>{
         if(turn){
+            box.style.color = "black";
             box.innerHTML = "X";
             turnAnnoucement.innerText = "O's Turn";
         }
         else{
+            box.style.color = "white";
             box.innerHTML = "O";
             turnAnnoucement.innerText = "X's Turn";
         }
